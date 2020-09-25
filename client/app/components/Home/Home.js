@@ -185,6 +185,7 @@ class Home extends Component {
             });
           }
         });
+      exit();
     } else {
       this.setState({
         isLoading: false
